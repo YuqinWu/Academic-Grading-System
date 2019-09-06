@@ -1,4 +1,5 @@
 # Academic-Grading-System
 An academic grading system supports sign up with two roles, professor/student, and log in/log out.
 
-Code coming soon!!!
+Demo address:
+https://mpcs53001.cs.uchicago.edu/~yuqinwu/grading_system.php

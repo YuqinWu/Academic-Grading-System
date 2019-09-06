@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Sign up</title>
+</head>
+
+<body>
+<h1>CS53001 Grading System</h1>
+<h1>Please Sign up</h1>
+
+<form method=get action="sign_up.php">
+Name:<br>
+<input type="text" name="name"><BR>
+Email:<br>
+<input type="email" name="email" title="Please provide a valid email address" ><BR>
+Password: (Must contain both number and letter, and at least 8 or more characters)<br>
+<input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z]).{8,}" title="Must contain both number and letter, and at least 8 or more characters"><BR>
+Confirm password:<br>
+<input type="password" name="confirm_password"><BR>
+You are a:<br>
+<select name="identity">
+    <option value = 0>Professor</option>
+    <option value = 1>Student</option>
+</select><br>
+<br>
+<input type="submit" value="Sign up">
+</form>
+
+<a href="grading_system.php">Back to log in</a>
+<hr>
