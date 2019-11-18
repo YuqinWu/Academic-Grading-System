@@ -1,7 +1,7 @@
 <?php
 
 // Connection parameters 
-$host = '127.0.0.1';
+$host = 'localhost';
 $username = 'yuqinwu';
 $password = '83995160';
 $database = 'yuqinDB';
