@@ -6,10 +6,10 @@
 	{
 		if(isset($_SESSION['code']))
 			unset($_SESSION['code']);
-		$host = 'mpcs53001.cs.uchicago.edu';
+		$host = 'localhost';
 		$username = 'yuqinwu';
 		$password = '83995160';
-		$database = $username.'DB';
+		$database = 'yuqinDB';
 		// Attempting to connect
 		$dbcon = mysqli_connect($host, $username, $password, $database)
    			or die('Could not connect: ' . mysqli_connect_error());

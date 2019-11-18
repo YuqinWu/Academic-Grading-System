@@ -4,10 +4,10 @@ if(!isset($_SESSION['email']))
 	die('Direct access not permitted');
 
 // Connection parameters 
-$host = 'mpcs53001.cs.uchicago.edu';
+$host = 'localhost';
 $username = 'yuqinwu';
 $password = '83995160';
-$database = $username.'DB';
+$database = 'yuqinDB';
 
 // Attempting to connect
 $dbcon = mysqli_connect($host, $username, $password, $database)
