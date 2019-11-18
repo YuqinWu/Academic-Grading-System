@@ -4,7 +4,7 @@
 $host = '127.0.0.1';
 $username = 'yuqinwu';
 $password = '83995160';
-$database = 'yuqin.DB';
+$database = 'yuqinDB';
 
 // Attempting to connect
 $dbcon = mysqli_connect($host, $username, $password, $database)
