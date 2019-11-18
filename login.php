@@ -1,10 +1,10 @@
 <?php
 
 // Connection parameters 
-$host = 'mpcs53001.cs.uchicago.edu';
+$host = '127.0.0.1';
 $username = 'yuqinwu';
 $password = '83995160';
-$database = $username.'DB';
+$database = 'yuqin.DB';
 
 // Attempting to connect
 $dbcon = mysqli_connect($host, $username, $password, $database)
